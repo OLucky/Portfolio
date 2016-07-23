@@ -1,0 +1,67 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  position: relative;
+  /*Thank you, Google Fonts!*/
+  margin-top: 50px;
+  /*This beautiful gradient is taken from uigradients.com with changed direction*/
+  background: #2BC0E4;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #2BC0E4, #EAECC6);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #2BC0E4, #EAECC6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.main-div {
+  position: relative;
+}
+
+.navbar {
+  background: rgba(58, 96, 115, 1);
+}
+
+li a:hover {
+  color: yellow;
+}
+
+.jumbotron {
+  background: inherit;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.proj {
+  margin-top: 30px;
+  background-color: transparent;
+}
+
+.text-about{
+  display: block;
+  margin-top: 50px;
+}
+
+.img-photo {
+  max-height: 280px;
+  width: auto;
+}
+
+.img-project {
+  margin: 0 auto;
+  max-height: 220px;
+  border: 3px solid;
+  border-color: #2BC0E4;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: inherit;
+}
+
+.title {
+  font-family: 'Lobster', cursive;
+  /*Thank you, Google Fonts!*/
+  margin-bottom: 30px;
+}
