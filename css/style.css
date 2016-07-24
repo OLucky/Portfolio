@@ -14,7 +14,7 @@ background: linear-gradient(to bottom, #83a4d4 , #b6fbff); /* W3C, IE 10+/ Edge,
 }
 
 .navbar {
-  background: rgba(131,164,212, 1);
+  background-color: rgba(131,164,212,1);
 }
 
 li a {
