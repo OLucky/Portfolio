@@ -13,20 +13,29 @@ background: linear-gradient(to bottom, #83a4d4 , #b6fbff); /* W3C, IE 10+/ Edge,
   position: relative;
 }
 
-.navbar {
-  background-color: #83a4d4 !important;
+.navbar { 
+  background-color: #83a4d4;
 }
 
-li a {
-	color: black !important;
+.btn-color{
+	transition: all 0.25s ease;
 }
 
-li a:hover {
-  color: yellow !important;
+.navbar ul.nav li a.btn-color:link {
+		color: black;
 }
 
-li a:visited {
-	background-color: #606c88 !important;
+.navbar ul.nav li a.btn-color:visited {
+	background-color: #606c88;
+    color: white;	
+}
+
+.navbar ul.nav li a.btn-color:hover {
+  color: white; 
+}
+
+.navbar ul.nav li a.btn-color:active {
+	color: white;
 }
 
 .jumbotron {
