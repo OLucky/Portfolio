@@ -14,11 +14,19 @@ background: linear-gradient(to top, #83a4d4 , #b6fbff); /* W3C, IE 10+/ Edge, Fi
 }
 
 .navbar {
-  background: rgba(58, 96, 115, 1);
+  background: rgba(63,76,107, 1);
+}
+
+li a {
+	color: #F0C27B !important;
 }
 
 li a:hover {
-  color: yellow;
+  color: yellow !important;
+}
+
+ a:visited {
+	background-color: #606c88 !important;
 }
 
 .jumbotron {
