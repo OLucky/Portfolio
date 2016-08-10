@@ -13,7 +13,7 @@ background: linear-gradient(to bottom, #83a4d4 , #b6fbff); /* W3C, IE 10+/ Edge,
   position: relative;
 }
 
-.navbar { 
+.navbar {
   background-color: #83a4d4;
 }
 
@@ -27,11 +27,12 @@ background: linear-gradient(to bottom, #83a4d4 , #b6fbff); /* W3C, IE 10+/ Edge,
 
 .navbar ul.nav li a.btn-color:visited {
 	background-color: #606c88;
-    color: white; /*Doesn't work*/	
+    color: white; /*Doesn't work*/
 }
 
 .navbar ul.nav li a.btn-color:hover {
-  color: white; 
+  color: white;
+background-color: #3333ff;
 }
 
 .navbar ul.nav li a.btn-color:active {
