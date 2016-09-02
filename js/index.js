@@ -1,6 +1,3 @@
-/*Default Scrollspy from Bootstrap*/
-$('body').scrollspy({target: "#navka", offset: 40});
-
 /*This smooth-scrolling script is taken from w3schools.com*/
 $(document).ready(function(){
   // Add smooth scrolling to all links
@@ -18,7 +15,7 @@ $(document).ready(function(){
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 800, function(){
-   
+
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });

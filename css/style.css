@@ -25,18 +25,8 @@ background: linear-gradient(to bottom, #83a4d4 , #b6fbff); /* W3C, IE 10+/ Edge,
 		color: black;
 }
 
-.navbar ul.nav li a.btn-color:visited {
-	background-color: #606c88;
-    color: white; /*Doesn't work*/
-}
-
 .navbar ul.nav li a.btn-color:hover {
   color: white;
-/*background-color: #3333ff;*/
-}
-
-.navbar ul.nav li a.btn-color:active {
-	color: white; /*Doesn't work*/
 }
 
 .jumbotron {
@@ -47,6 +37,7 @@ background: linear-gradient(to bottom, #83a4d4 , #b6fbff); /* W3C, IE 10+/ Edge,
 
 .proj {
   margin-top: 30px;
+  font-size: 10px;
   background-color: transparent;
 }
 
