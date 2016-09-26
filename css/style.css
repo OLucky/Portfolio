@@ -17,6 +17,10 @@ p {
   text-align: justify;
 }
 
+h2{
+  font-size: 35px;
+}
+
 .main-div {
   position: relative;
 }
