@@ -11,6 +11,10 @@ background: linear-gradient(to bottom, #83a4d4 , #b6fbff); /* W3C, IE 10+/ Edge,
 
 a {color: inherit;}
 
+a:hover{
+  text-decoration: none;
+}
+
 p {text-align: justify;}
 
 h2{font-size: 35px;}
@@ -64,3 +68,5 @@ h2{font-size: 35px;}
   font-family: 'Lobster', cursive;
   margin-bottom: 30px;
 }
+
+#FCCFrontEnd{margin-top: 50px;}
